@@ -48,31 +48,7 @@
                 numeros[i] = parseInt (prompt(`Digite o ${i+1}º número inteiro : `))
             }   
             alert(`Os números digitados foram ${numeros} respectivamente`)
-      // var numeros = new Array ();
-        // var Qtd =  parseInt (prompt("Defina a quantidades de números a serem digitados: "));
-        // for(i = 0; i <= Qtd-1; i++){
-        //     numeros[i] = parseInt (prompt(`Digite o ${i+1}º número inteiro : `, ""));
-        // }
-        // for(i= 0; i<=Qtd-1; i++){
-        //     alert(`Os numeros digitados foram  ${numeros[i]}`);           
         }
-
-        //O código a baixo foi substituido pelo código a cima
-
-       // numeros[0] = parseInt (prompt("Digite um número inteiro : ", ""))
-        //numeros[1] = parseInt (prompt("Digite o segundo número inteiro : ", ""))
-        //numeros[2] = parseInt (prompt("Digite o terceiro número inteiro : ", ""))
-        //numeros[3] = parseInt (prompt("Digite o quarto número inteiro : ", ""))
-        //numeros[4] = parseInt (prompt("Digite o quinto número inteiro : ", ""))
-
-        //alert(`Os numeros digitados foram  ${numeros[0]}`);
-        //alert(`Os numeros digitados foram  ${numeros[1]}`)
-        //alert(`Os numeros digitados foram  ${numeros[2]}`)
-        //alert(`Os numeros digitados foram  ${numeros[3]}`)
-        //alert(`Os numeros digitados foram  ${numeros[4]}`)
-        
-// a entrada do usuário não é armazenada.
-
     const trianguloretangulo = ()=>{
         var h = Number(prompt("Autura do Triângulo retângulo: "));
         var b = Number(prompt("Base do Triângulo retângulo: "));
